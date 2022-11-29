@@ -8,7 +8,12 @@ public class act1 : MonoBehaviour
 
     void Start()
     {
-        
+        if (num > 0)
+            Debug.Log($"{num} es positivo");
+        else if (num == 0)
+            Debug.Log($"{num} es 0");
+        else
+            Debug.Log($"´{num} es negativo");
     }
 
 
